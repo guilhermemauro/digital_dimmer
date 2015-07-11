@@ -9,10 +9,14 @@ void setup(){
 }
 void loop(){
   //wait for passage of zero crossing
-  if(digitalRead(zerocrossing_sensor) == 0){}
+  if(digitalRead(zerocrossing_sensor) != 0){
+    //count the time 
   trash = millis() - tempo;
   tempo = millis();
   Serial.println(trash);
-  delayMicroseconds(100);
+  delayMicroseconds(200);
+  //delay for best human visualization
+  delay(1000);
+  }
 }
 
