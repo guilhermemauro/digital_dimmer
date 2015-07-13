@@ -8,7 +8,7 @@ void setup(){
   pinMode(zerocrossing_sensor, INPUT);
   pinMode(trigger, OUTPUT);
   Serial.begin(9600);
-  digitalWrite(trigger, HIGH);
+  digitalWrite(trigger, LOW);
 }
 void loop(){
   //wait for passage of zerocrossing
