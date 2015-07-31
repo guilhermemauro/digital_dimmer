@@ -3370,6 +3370,8 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <sheets>
 <sheet>
 <plain>
+<text x="66.04" y="93.98" size="1.778" layer="91">For 800w, use the BT137.</text>
+<text x="-15.24" y="93.98" size="1.778" layer="91">I choosed the ATtiny45 for the scheme, but i use 85. </text>
 </plain>
 <instances>
 <instance part="OK1" gate="-1" x="53.34" y="76.2"/>

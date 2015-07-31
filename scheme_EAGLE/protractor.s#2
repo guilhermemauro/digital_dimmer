@@ -3342,7 +3342,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="0207/12" value="30k"/>
-<part name="USE-BT137" library="triac" deviceset="BT136" device=""/>
+<part name="BT1" library="triac" deviceset="BT136" device=""/>
 <part name="AC-OUTPUT" library="con-ptr500" deviceset="AK500/2-H" device=""/>
 <part name="AC-INPUT" library="con-ptr500" deviceset="AK500/2-H" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="0207/12" value="1k"/>
@@ -3379,7 +3379,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="D3" gate="1" x="104.14" y="50.8" rot="R180"/>
 <instance part="D4" gate="1" x="104.14" y="45.72"/>
 <instance part="R1" gate="G$1" x="73.66" y="45.72"/>
-<instance part="USE-BT137" gate="-1" x="76.2" y="76.2"/>
+<instance part="BT1" gate="-1" x="76.2" y="76.2"/>
 <instance part="AC-OUTPUT" gate="-1" x="104.14" y="86.36"/>
 <instance part="AC-OUTPUT" gate="-2" x="104.14" y="81.28"/>
 <instance part="AC-INPUT" gate="-1" x="104.14" y="73.66"/>
@@ -3463,7 +3463,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="USE-BT137" gate="-1" pin="A2"/>
+<pinref part="BT1" gate="-1" pin="A2"/>
 <wire x1="81.28" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="81.28" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
@@ -3485,7 +3485,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="USE-BT137" gate="-1" pin="G"/>
+<pinref part="BT1" gate="-1" pin="G"/>
 <pinref part="OK1" gate="-1" pin="A2"/>
 <wire x1="71.12" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="76.2" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
@@ -3493,7 +3493,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="USE-BT137" gate="-1" pin="A1"/>
+<pinref part="BT1" gate="-1" pin="A1"/>
 <wire x1="76.2" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="73.66" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>

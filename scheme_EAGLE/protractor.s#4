@@ -3361,6 +3361,9 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="JP3" library="adafruit" deviceset="PINHD-1X3" device=""/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="0207/12" value="4.7k"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="0207/12" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3394,7 +3397,10 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <instance part="R5" gate="G$1" x="35.56" y="48.26"/>
 <instance part="GND4" gate="1" x="33.02" y="53.34" rot="R270"/>
 <instance part="GND5" gate="1" x="35.56" y="71.12" rot="R270"/>
-<instance part="JP2" gate="A" x="-38.1" y="60.96" rot="R180"/>
+<instance part="JP2" gate="A" x="-58.42" y="60.96" rot="R180"/>
+<instance part="JP3" gate="A" x="-38.1" y="45.72" rot="R180"/>
+<instance part="R6" gate="G$1" x="-43.18" y="71.12" rot="R90"/>
+<instance part="R7" gate="G$1" x="-50.8" y="71.12" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -3582,22 +3588,35 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="JP2" gate="A" pin="3"/>
-<wire x1="-35.56" y1="63.5" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="63.5" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="PB0"/>
-<wire x1="-25.4" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
+<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="63.5" x2="-50.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="63.5" x2="-50.8" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="63.5" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="63.5" x2="-30.48" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PB0"/>
+<wire x1="-30.48" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
 <pinref part="JP2" gate="A" pin="2"/>
-<wire x1="-35.56" y1="60.96" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="60.96" x2="-20.32" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="60.96" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="60.96" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="60.96" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PB2"/>
-<wire x1="-20.32" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-50.8" y1="76.2" x2="-43.18" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
