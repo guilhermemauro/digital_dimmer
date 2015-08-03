@@ -6,7 +6,7 @@
 int zerocrossing_sensor = 3;
 int trigger = 4;
 //potentiometer pin
-int pino_potent = A1;
+int pino_potent = A3;
 //potentiometer value
 int potent = 0;
 void setup(){
@@ -19,7 +19,7 @@ void loop(){
   //wait for passage of zerocrossing
   if(digitalRead(zerocrossing_sensor) != 0){
     potent = analogRead(pino_potent);
-    potent =  map(potent, 0, 1023, 0, 111);
+    potent =  map(potent, 0, 1023, 116, 5);
     //expected time to turn on the MOC3021
     delayMicroseconds(65*potent);
     digitalWrite(trigger, HIGH);
