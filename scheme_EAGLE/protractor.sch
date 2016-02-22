@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3623,15 +3623,15 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="60.96" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="60.96" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="60.96" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="60.96" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="60.96" x2="-43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="60.96" x2="-27.94" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="60.96" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PB2"/>
 <wire x1="-25.4" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="-55.88" y1="48.26" x2="-45.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="48.26" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="48.26" x2="-48.26" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

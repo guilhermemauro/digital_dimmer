@@ -423,9 +423,9 @@ at 27/07/2012 14:02:49</description>
 </library>
 <library name="con-ptr500">
 <description>&lt;b&gt;PTR Connectors&lt;/b&gt;&lt;p&gt;
-Aug. 2004 / PTR MeÃtechnik:&lt;br&gt;
-Die Bezeichnung der Serie AK505 wurde geÃ¤ndert.&lt;br&gt;
-Es handelt sich hierbei um AK500 in horizontaler AusfÃ¼hrung.&lt;p&gt;
+Aug. 2004 / PTR MeÃÂtechnik:&lt;br&gt;
+Die Bezeichnung der Serie AK505 wurde geÃÂ¤ndert.&lt;br&gt;
+Es handelt sich hierbei um AK500 in horizontaler AusfÃÂ¼hrung.&lt;p&gt;
 &lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2&gt;
   &lt;TR&gt;
     &lt;TD ALIGN=LEFT&gt;
@@ -476,9 +476,9 @@ Es handelt sich hierbei um AK500 in horizontaler AusfÃ¼hrung.&lt;p&gt;
 <packages>
 <package name="AK500/2-H">
 <description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
-Aug. 2004 / PTR MeÃtechnik:&lt;br&gt;
-Die Bezeichnung der Serie AK505 wurde geÃ¤ndert.&lt;br&gt;
-Es handelt sich hierbei um AK500 in horizontaler AusfÃ¼hrung.</description>
+Aug. 2004 / PTR MeÃÂtechnik:&lt;br&gt;
+Die Bezeichnung der Serie AK505 wurde geÃÂ¤ndert.&lt;br&gt;
+Es handelt sich hierbei um AK500 in horizontaler AusfÃÂ¼hrung.</description>
 <wire x1="-5.08" y1="-7.239" x2="-5.08" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="2.794" x2="-5.08" y2="2.794" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-7.239" x2="-4.318" y2="-7.239" width="0.1524" layer="21"/>
@@ -579,7 +579,7 @@ Es handelt sich hierbei um AK500 in horizontaler AusfÃ¼hrung.</description>
 <designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewÃ¤hlt, dass sie fÃ¼r 
+Die Standard-Design-Rules sind so gewÃÂ¤hlt, dass sie fÃÂ¼r 
 die meisten Anwendungen passen. Sollte ihre Platine 
 besondere Anforderungen haben, treffen Sie die erforderlichen
 Einstellungen hier und speichern die Design Rules unter 
@@ -681,7 +681,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
